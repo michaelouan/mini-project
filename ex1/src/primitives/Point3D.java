@@ -6,8 +6,8 @@ import java.util.Objects;
 /**
  * Class Point3D is the basic class representing a point in a
  * 3D system.
- *
- * @author Corona isDead
+ *Constructors receiving: Three coordinates, three double-type numbers, or point
+ * @author Hanna
  */
 public class Point3D {
 
@@ -67,6 +67,7 @@ public class Point3D {
     public double distance (Point3D other){
         return Math.sqrt(distanceSquared(other));
     }
+
     public Point3D add(Vector v) {
         return new Point3D(this._x._coord + v._head._x._coord,
                 this._y._coord + v._head._y._coord,

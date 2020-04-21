@@ -1,11 +1,8 @@
 package geometries;
 
-import primitives.Coordinate;
 import primitives.Point3D;
 import primitives.Util;
 import primitives.Vector;
-
-import java.util.Objects;
 
 public class Sphere extends RadialGeometry {
     Point3D _center;

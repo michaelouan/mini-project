@@ -12,7 +12,7 @@ public class Triangle extends Polygon {
 
         Triangle tr = (Triangle) obj;
 
-        // LO Mushlam
+
         return _vertices.get(0).equals(tr._vertices.get(0)) &&
                 _vertices.get(1).equals(tr._vertices.get(1)) &&
                 _vertices.get(2).equals(tr._vertices.get(2));
