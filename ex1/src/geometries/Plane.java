@@ -8,6 +8,12 @@ public class Plane implements Geometry {
     Point3D _p;
     Vector _normal;
 
+    /** constractor who calculate the normal
+     *
+     * @param p1
+     * @param p2
+     * @param p3
+     */
     public Plane(Point3D p1, Point3D p2, Point3D p3) {
         _p = new Point3D(p1);
 

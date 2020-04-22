@@ -59,5 +59,9 @@ public class Ray {
     }
 
 
+    public Point3D getPoint() {return new Point3D(_point);
+    }
 
+    public Vector getDirection() {return  new Vector(_direction);
+    }
 }

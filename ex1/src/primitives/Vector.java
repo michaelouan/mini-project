@@ -4,17 +4,16 @@ import java.nio.charset.CoderResult;
 import java.util.Objects;
 
 /**
- * Vector is the .......vechu .....
- * TO DO
- * comments are missing
+ * the class vector is the class representating a vector in a 3D system
  *
- * @author Eliezer
+ * @author Hanna
  */
 public class Vector {
     Point3D _head;
 
     /**
      * @param p
+     * the vector constructor throws an exception if we enter the null vector.
      */
     public Vector(Point3D p) {
         if (p.equals(Point3D.ZERO)) {
@@ -34,6 +33,13 @@ public class Vector {
         this(p1.subtract(p2));
     }
 
+    /** three number of type double
+     *
+     *
+     * @param x
+     * @param y
+     * @param z
+     */
     public Vector(double x,double y, double z) {
         this(new Point3D(x,y,z));
     }
